@@ -94,7 +94,8 @@ section{
 .header .logo{
     font-size: 2.5rem;
     font-weight: bolder;
-    color: var(--box-shadow);
+    color: var(--orange);
+    text-decoration: none;
 
 }
 .header{
@@ -106,8 +107,9 @@ section{
 .header .logo i{
     
     color: var(--orange);
-
+    
 }
+
 .navbar{
     text-align: center;
     justify-content: center;
