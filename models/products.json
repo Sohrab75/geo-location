@@ -78,7 +78,7 @@
         "price": "$10.00",
         "rating":"3.5",
         "numReviews":"5"
-    }
+    },
     {
         "_id": "8",
         "category_id":2,
