@@ -1,9 +1,9 @@
-const express = require('express');
+// const express = require('express');
 
-var productLisController = require('../controller/product');
+// var productLisController = require('../controller/product');
 
-const router = express.Router();
+// const router = express.Router();
 
-router.get('/getProductList', productListController.getProductList);
+// router.get('/getProductList', productListController.getProductList);
 
-module.exports = router;
+// module.exports = router;

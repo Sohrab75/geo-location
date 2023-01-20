@@ -1,4 +1,4 @@
-[
+db.category.insert([
     {   
         "id":1,
         "category_id":1,
@@ -23,4 +23,4 @@
         "name":"dairy",
         "type":"veg"
     }
-]
+])
