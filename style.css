@@ -591,6 +591,9 @@ background-color: #ffffff;
     right: -40px;
 }
 
+/* Feature section */
+
+
 .features .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr ));
@@ -611,6 +614,7 @@ background-color: #ffffff;
 .features .box-container .box img{
     margin: 1rem 0;
     height: 15rem;
+    border-radius: 5%;
 
 }
 .features .box-container .box h3{
@@ -624,6 +628,9 @@ background-color: #ffffff;
     color: var(--light-color);
     padding: 1rem 0;
 }
+
+/* products section */
+
 
 .products .products-slider{
     padding: 1rem;
@@ -648,6 +655,7 @@ background-color: #ffffff;
 .products .products-slider .box img{
     height: 20rem;
     overflow-clip-margin: content-box;
+    border-radius: 5%;
 
 
 }
@@ -669,19 +677,28 @@ background-color: #ffffff;
     padding: .5rem 0;
 
 }
+
+/* category section */
+
+.categories .categories-slider{
+    padding: 1rem;
+}
+
+
 .categories .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr ));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr ));
     gap: 1.5rem;
 }
 .categories .box-container .box{
-    padding: 3rem 2rem;
-    border-radius: .5rem;
     background: #fff;
-    box-shadow: var(--box-shadow);
-    outline: var(--outline);
-    outline-offset: -1rem;
+    border-radius: .5rem;
     text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s;
 }
 .categories .box-container .box:hover{
     outline: var(--outline-hover);
@@ -690,7 +707,8 @@ background-color: #ffffff;
 .categories .box-container .box img{
     margin: 1rem 0rem;
     height: 15rem;
-
+    overflow-clip-margin: content-box;
+    border-radius: 5%;
 }
 .categories .box-container .box h3{
     font-size: 2rem;
@@ -703,6 +721,9 @@ background-color: #ffffff;
     line-height: 1.8rem;
     padding: 1rem 0rem;
 }
+
+/* review section */
+
 
 .review .review-slider{
     padding: 1rem;
@@ -746,10 +767,17 @@ background-color: #ffffff;
     font-size: 1.7rem;
 
 }
+
+/* blogs section */
+
 .blogs .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr ));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr ));
     gap: 1.5rem;
+}
+.blogs .box:hover{
+    outline: var(--outline-hover);
+    outline-offset: 1rem;
 }
 .blogs .box-container .box{
     overflow: hidden;
@@ -761,6 +789,7 @@ background-color: #ffffff;
     height:25rem;
     width:100%;
     object-fit:cover;
+    border-radius: 5%;
 
     
 }
@@ -803,13 +832,16 @@ background-color: #ffffff;
     padding:.5rem;
     
 }
+
+/* footer section */
+
 .footer{
     /* background: #fff; */
 }
 .footer .box-container{
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr ));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr ));
     gap: 1.5rem;
 }
 .footer .box-container h3{
@@ -932,4 +964,5 @@ background-color: #ffffff;
     .container{
         width: fit-content;
     }
+    
 }
